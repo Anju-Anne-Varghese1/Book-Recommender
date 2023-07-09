@@ -11,17 +11,19 @@ Python code for this project is contained in a Pycharm file.
 
 * Landing Page:
   
- ![1](https://github.com/Anju-Anne-Varghese1/Book-Recommender-System/assets/137760122/f969ff4c-4e9b-4893-9b6e-01f88aebbac0)
+ ![1](https://github.com/Anju-Anne-Varghese1/Book-Recommender/assets/137760122/0dbfdd34-e8eb-4b19-b3ee-d4a050911d96)
 
 * Recommend:
   
- ![2](https://github.com/Anju-Anne-Varghese1/Book-Recommender-System/assets/137760122/83a5c98b-50da-4030-8a1f-8a1a2f50c954)
+ ![2](https://github.com/Anju-Anne-Varghese1/Book-Recommender/assets/137760122/7d75f5c3-966b-44b9-a831-23abc73d22ad)
 
- ![3](https://github.com/Anju-Anne-Varghese1/Book-Recommender-System/assets/137760122/32277a2e-6b9f-40ad-b086-c972eb431864)
+ ![3](https://github.com/Anju-Anne-Varghese1/Book-Recommender/assets/137760122/aaaa88f9-5f53-4ee3-a34a-7fb39b84bce9)
 
 * Result:
- 
-![4](https://github.com/Anju-Anne-Varghese1/Book-Recommender-System/assets/137760122/89124348-7516-4ab5-9e27-88028d337e60)
+  
+ ![4](https://github.com/Anju-Anne-Varghese1/Book-Recommender/assets/137760122/5439a0b6-b596-4110-8d9a-0b76878fbd05)
+
+
 
   
 
