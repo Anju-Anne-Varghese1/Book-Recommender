@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Recommender System</title>
+    <!-- Latest compiled and minified CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<style>
+    .text-white{
+        color:white
+    }
+</style>
+<body style="background-color:black">
+    <nav class="navbar" style="background-color:#00a65a">
+        <a class="navbar-brand">My Book Recommender</a>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/recommend">Recommend</a></li>
+        </ul>
+    </nav>
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-white" style="font-size:50px">Top 50 Books</h1>
+            </div>
+                <div class="col-md-12" style="margin-top:50px">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-white" style="font-size:20px">Sl.No</th>
+                                <th scope="col" class="text-white" style="font-size:20px">Book Title</th>
+                                <th scope="col" class="text-white" style="font-size:20px">Author</th>
+                                <th scope="col" class="text-white" style="font-size:20px">Votes</th>
+                                <th scope="col" class="text-white" style="font-size:20px">Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for i in range(book_name|length) %}
+                                <tr>
+                                    <th scope="row" class="text-white" style="font-size:15px">{{ [i+1][0] }}</th>
+                                    <td class="text-white" style="font-size:15px">{{ book_name[i] }}</td>
+                                    <td class="text-white" style="font-size:15px">{{ author[i] }}</td>
+                                    <td class="text-white" style="font-size:15px">{{ votes[i] }}</td>
+                                    <td class="text-white" style="font-size:15px">{{ rating[i] }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+        </div>
+</div>
+</body>
+</html>
